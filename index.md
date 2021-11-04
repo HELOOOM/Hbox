@@ -61,6 +61,9 @@ void Dialog1::placeWidgets()
 }
 
 ```
+## here is the *result* : 
+
+![Image](src)
 
 
 ```markdown

@@ -156,21 +156,6 @@ rightLayout->addSpacerItem(new QSpacerItem(10,10, QSizePolicy::Expanding));
 
 ###  _**Dialog3.h**_
 ```c++
-#ifndef DIALOG3_H
-#define DIALOG3_H
-#include<QWidget>
-#include<QLabel>
-#include<QPushButton>
-#include<QLineEdit>
-#include<QHBoxLayout>
-#include<QVBoxLayout>
-#include<QCheckBox>
-#include<dialog1.h>
-#include<QTextEdit>
-#include<QComboBox>
-#include <QFormLayout>
-#include <QSpacerItem>
-#include <QGridLayout>
 class Dialog3 : public QWidget
 {
 public:

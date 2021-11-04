@@ -65,7 +65,7 @@ void Dialog1::placeWidgets()
 }
 
 ```
-### Dialog1 Result
+### Dialog1_Result
 ![Image](image_2021-11-04_105237.png)
 
 - #  Dialog2

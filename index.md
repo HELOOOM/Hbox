@@ -4,9 +4,9 @@
 A **Widgets** is an element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.
 
 
-## [**Result**](#result)
+### [**Result**](#result)
 
-## [**Dialog1**](#dialog1)
+### [**Dialog1**](#dialog1)
   
 ## Now we start with creating the **`main`** class 
 ```c++

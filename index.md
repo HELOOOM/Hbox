@@ -1,12 +1,10 @@
 # Hbox Report
 
-You can use the [editor on GitHub](https://github.com/HELOOOM/Hbox/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 # Definition
-A **widgets** i an element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.
+A **Widgets** is an element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.
 
+[Result](#result)
+  
 ## Now we start with creating the **`main`** class 
 ```c++
 int main(int argc, char *argv[])
@@ -61,9 +59,9 @@ void Dialog1::placeWidgets()
 }
 
 ```
-## **Result** : 
-
+### Result 
 ![Image](image_2021-11-04_105237.png)
+
 
 
 ```markdown

@@ -17,7 +17,7 @@ D->show();
     return a.exec();
 }
 ```
-## Here is the code for the _**Dialog1.h**_ class:
+##  _**Dialog1.h**_ Class:
 
 ```c++
 class Dialog1: public QWidget
@@ -35,7 +35,7 @@ protected:
     QHBoxLayout *layout;
 };
 ```
-## And here is the _**Dialog1.cpp**_ :
+##  _**Dialog1.cpp**_ Class :
 
 ```c++
 #include "dialog1.h"
@@ -61,9 +61,9 @@ void Dialog1::placeWidgets()
 }
 
 ```
-## here is the *result* : 
+## **Result** : 
 
-![Image](src)
+![Image](image_2021-11-04_105237.png)
 
 
 ```markdown

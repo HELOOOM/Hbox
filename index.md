@@ -317,5 +317,5 @@ void Dialog3::placeWidgets(){
 ```
 - # Dialog3_Result
 
-![Image](image_2021-11-05_002823.png)
+![Image](dia3.png)
 

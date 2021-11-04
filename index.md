@@ -7,6 +7,34 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 ## Definition
 A **widgets** i an element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.
 
+now we start with creating the `main` class 
+```c++
+int main(int argc, char *argv[])
+{
+    QApplication a(argc, argv);
+auto D = new Dialog1;
+D->show();
+    return a.exec();
+}
+```
+Here is the code for the **Dialog1.h** class:
+
+```c++
+class Dialog1: public QWidget
+{
+public:
+    explicit Dialog1(QWidget *parent=nullptr);
+protected:
+    void makeConnexions();
+    void createWidgets();
+    void placeWidgets();
+protected:
+    QLabel *label;
+    QLineEdit *line;
+    QPushButton *search;
+    QHBoxLayout *layout;
+};
+```
 
 ```markdown
 Syntax highlighted code block

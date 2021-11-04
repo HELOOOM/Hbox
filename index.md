@@ -5,7 +5,7 @@ A **Widgets** is an element of a graphical user interface (GUI) that displays in
 
  -  [**Dialog1**](#dialog1)
  
- -  [**Result**](#result)
+ -  [**Dialog1 Result**](#dialog1_result)
  
  -  [**Dialog2**](#dialog2)
   
@@ -65,7 +65,7 @@ void Dialog1::placeWidgets()
 }
 
 ```
-### Result
+### Dialog1 Result
 ![Image](image_2021-11-04_105237.png)
 
 - #  Dialog2

@@ -3,10 +3,11 @@
 # Definition
 A **Widgets** is an element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.
 
-
- # [**Result**](#result)
-
  [**Dialog1**](#dialog1)
+ 
+ [**Result**](#result)
+ 
+ [**Dialog2**](#result)
   
 ## Now we start with creating the **`main`** class 
 ```c++
@@ -67,7 +68,29 @@ void Dialog1::placeWidgets()
 ### Result
 ![Image](image_2021-11-04_105237.png)
 
+# Dialog2
 
+### Dialog2.h
+
+```c++
+class Dialog2 : public QWidget
+{
+public:
+    explicit Dialog2(QWidget *parent=nullptr);
+protected:
+    void makeConnexions();
+    void createWidgets();
+    void placeWidgets();
+     ~Dialog2();
+protected:
+    QLabel *nameLabel;
+    QLineEdit *nameEdit;
+    QCheckBox *match;
+    QCheckBox *backward;
+    QPushButton *search;
+     QPushButton *close;
+};
+```
 
 ```markdown
 Syntax highlighted code block

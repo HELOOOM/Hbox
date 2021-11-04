@@ -4,6 +4,8 @@
 A **Widgets** is an element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.
 
 [Result](#result)
+
+[Dialog1](#dialog1)
   
 ## Now we start with creating the **`main`** class 
 ```c++
@@ -15,7 +17,7 @@ D->show();
     return a.exec();
 }
 ```
-##  _**Dialog1.h**_ Class:
+##  _**Dialog1.h**_
 
 ```c++
 class Dialog1: public QWidget
@@ -33,7 +35,7 @@ protected:
     QHBoxLayout *layout;
 };
 ```
-##  _**Dialog1.cpp**_ Class :
+###  _**Dialog1**_
 
 ```c++
 #include "dialog1.h"
@@ -59,7 +61,7 @@ void Dialog1::placeWidgets()
 }
 
 ```
-### Result 
+### Result
 ![Image](image_2021-11-04_105237.png)
 
 

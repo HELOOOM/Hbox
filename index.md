@@ -8,6 +8,8 @@ A **Widgets** is an element of a graphical user interface (GUI) that displays in
  -  [**Dialog1 Result**](#dialog1_result)
  
  -  [**Dialog2**](#dialog2)
+
+-  [**Dialog2 Result**](#dialog2_result)
   
 ## Now we start with creating the **`main`** class 
 ```c++
@@ -149,7 +151,7 @@ auto policy =new QSizePolicy(QSizePolicy::Fixed,QSizePolicy::Fixed);
 rightLayout->addSpacerItem(new QSpacerItem(10,10, QSizePolicy::Expanding));
 }
 ```
-
+### Dialog2_Result
 
 
 

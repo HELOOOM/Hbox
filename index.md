@@ -7,7 +7,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 # Definition
 A **widgets** i an element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.
 
-## now we start with creating the `main` class 
+## now we start with creating the **`main`** class 
 ```c++
 int main(int argc, char *argv[])
 {

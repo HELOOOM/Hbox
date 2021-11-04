@@ -3,7 +3,7 @@
 # Definition
 A **Widgets** is an element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.
 
- [**Dialog1**](#dialog1)
+ - [**Dialog1**](#dialog1)
  
  [**Result**](#result)
  

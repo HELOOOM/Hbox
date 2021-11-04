@@ -5,7 +5,7 @@ A **Widgets** is an element of a graphical user interface (GUI) that displays in
 
 [Result](#result)
 
-[Dialog1](#dialog1)
+[Dialog](#dialog)
   
 ## Now we start with creating the **`main`** class 
 ```c++
@@ -35,7 +35,7 @@ protected:
     QHBoxLayout *layout;
 };
 ```
-###  _**Dialog1**_
+###  _**Dialog**_
 
 ```c++
 #include "dialog1.h"

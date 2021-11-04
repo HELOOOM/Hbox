@@ -4,10 +4,10 @@ You can use the [editor on GitHub](https://github.com/HELOOOM/Hbox/edit/gh-pages
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## Definition
+# Definition
 A **widgets** i an element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.
 
-now we start with creating the `main` class 
+## now we start with creating the `main` class 
 ```c++
 int main(int argc, char *argv[])
 {
@@ -17,7 +17,7 @@ D->show();
     return a.exec();
 }
 ```
-Here is the code for the **Dialog1.h** class:
+## Here is the code for the _**Dialog1.h**_ class:
 
 ```c++
 class Dialog1: public QWidget
@@ -35,7 +35,7 @@ protected:
     QHBoxLayout *layout;
 };
 ```
-And here is the **Dialog1.cpp** :
+## And here is the _**Dialog1.cpp**_ :
 
 ```c++
 #include "dialog1.h"
@@ -61,7 +61,7 @@ void Dialog1::placeWidgets()
 }
 
 ```
-![Image]()
+
 
 ```markdown
 Syntax highlighted code block

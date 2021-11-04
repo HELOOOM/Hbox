@@ -7,7 +7,7 @@ A **Widgets** is an element of a graphical user interface (GUI) that displays in
  
  [**Result**](#result)
  
- ## [**Dialog2**](#dialog2)
+ [**Dialog2**](#dialog2)
   
 ## Now we start with creating the **`main`** class 
 ```c++
@@ -19,7 +19,7 @@ D->show();
     return a.exec();
 }
 ```
-# Dialog1
+- #  Dialog1
 
 ###  _**Dialog1.h**_
 
@@ -68,9 +68,9 @@ void Dialog1::placeWidgets()
 ### Result
 ![Image](image_2021-11-04_105237.png)
 
-# Dialog2
+- #  Dialog2
 
-### Dialog2.h
+### _**Dialog2.h**_
 
 ```c++
 class Dialog2 : public QWidget
@@ -91,31 +91,71 @@ protected:
      QPushButton *close;
 };
 ```
+### _**Dialog2.cpp**_
+```c++
+Dialog2::Dialog2(QWidget *parent):QWidget(parent)
+{
+createWidgets();
+placeWidgets();
+makeConnexions();
+//Dialog2 *head=nullptr;
+}
 
-```markdown
-Syntax highlighted code block
+Dialog2 :: ~Dialog2()
+{
+    delete search;
+    delete backward;
+    delete nameEdit;
+    delete nameLabel;
+    delete match;
+    delete close;
+}
 
-# Header 1
-## Header 2
-### Header 3
+void Dialog2::createWidgets()
+{
+search=new QPushButton("search");
+backward=new QCheckBox();
+match =new QCheckBox();
+nameEdit=new QLineEdit();
+nameLabel=new QLabel("Name");
+close=new QPushButton("CLOSE");
+}
 
-- Bulleted
-- List
+void Dialog2::makeConnexions()
+{
+    connect(close, &QPushButton::clicked,qApp, &QApplication::exit);
+}
 
-1. Numbered
-2. List
+void Dialog2::placeWidgets()
+{
+auto mainLayout =new QHBoxLayout;
+auto leftLayout= new QVBoxLayout;
+auto topLeftLayout=new QHBoxLayout;
+auto rightLayout=new QVBoxLayout;
+setLayout(mainLayout);
 
-**Bold** and _Italic_ and `Code` text
+mainLayout->addLayout(leftLayout);
+mainLayout->addLayout(rightLayout);
 
-[Link](url) and ![Image](src)
+leftLayout->addLayout(topLeftLayout);
+
+topLeftLayout->addWidget(search);
+topLeftLayout->addWidget(nameEdit);
+leftLayout->addWidget(match);
+leftLayout->addWidget(backward);
+rightLayout->addWidget(search);
+rightLayout->addWidget(close);
+auto policy =new QSizePolicy(QSizePolicy::Fixed,QSizePolicy::Fixed);
+rightLayout->addSpacerItem(new QSpacerItem(10,10, QSizePolicy::Expanding));
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HELOOOM/Hbox/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+
+
+

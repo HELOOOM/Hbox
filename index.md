@@ -35,7 +35,7 @@ protected:
     QHBoxLayout *layout;
 };
 ```
-And here is the **Dialog.cpp**
+And here is the **Dialog1.cpp** :
 
 ```c++
 #include "dialog1.h"
@@ -61,6 +61,7 @@ void Dialog1::placeWidgets()
 }
 
 ```
+![Image]()
 
 ```markdown
 Syntax highlighted code block

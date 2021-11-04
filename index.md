@@ -10,6 +10,8 @@ A **Widgets** is an element of a graphical user interface (GUI) that displays in
  -  [**Dialog2**](#dialog2)
 
 -  [**Dialog2 Result**](#dialog2_result)
+
+ -  [**Dialog3**](#dialog3)
   
 ## Now we start with creating the **`main`** class 
 ```c++
@@ -67,7 +69,7 @@ void Dialog1::placeWidgets()
 }
 
 ```
-### Dialog1_Result
+- # Dialog1_Result
 ![Image](image_2021-11-04_105237.png)
 
 - #  Dialog2
@@ -102,7 +104,6 @@ placeWidgets();
 makeConnexions();
 //Dialog2 *head=nullptr;
 }
-
 Dialog2 :: ~Dialog2()
 {
     delete search;
@@ -112,7 +113,6 @@ Dialog2 :: ~Dialog2()
     delete match;
     delete close;
 }
-
 void Dialog2::createWidgets()
 {
 search=new QPushButton("search");
@@ -122,12 +122,10 @@ nameEdit=new QLineEdit();
 nameLabel=new QLabel("Name");
 close=new QPushButton("CLOSE");
 }
-
 void Dialog2::makeConnexions()
 {
     connect(close, &QPushButton::clicked,qApp, &QApplication::exit);
 }
-
 void Dialog2::placeWidgets()
 {
 auto mainLayout =new QHBoxLayout;
@@ -135,12 +133,9 @@ auto leftLayout= new QVBoxLayout;
 auto topLeftLayout=new QHBoxLayout;
 auto rightLayout=new QVBoxLayout;
 setLayout(mainLayout);
-
 mainLayout->addLayout(leftLayout);
 mainLayout->addLayout(rightLayout);
-
 leftLayout->addLayout(topLeftLayout);
-
 topLeftLayout->addWidget(search);
 topLeftLayout->addWidget(nameEdit);
 leftLayout->addWidget(match);
@@ -151,11 +146,11 @@ auto policy =new QSizePolicy(QSizePolicy::Fixed,QSizePolicy::Fixed);
 rightLayout->addSpacerItem(new QSpacerItem(10,10, QSizePolicy::Expanding));
 }
 ```
-### Dialog2_Result
+- # Dialog2_Result
 
+![Image](image_2021-11-05_002823.png)
 
-
-
+- #  Dialog3
 
 
 

@@ -20,7 +20,7 @@ D->show();
 ```
 # Dialog1
 
-##  _**Dialog1.h**_
+###  _**Dialog1.h**_
 
 ```c++
 class Dialog1: public QWidget

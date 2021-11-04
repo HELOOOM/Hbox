@@ -6,7 +6,7 @@ A **Widgets** is an element of a graphical user interface (GUI) that displays in
 
  -  [**Dialog1**](#dialog1)
  
-    -  [**Dialog1.h**](#dialog1)
+    -  [**Dialog1.h**](#dialog1h)
  
  -  [**Dialog1 Result**](#dialog1_result)
  
@@ -30,7 +30,7 @@ D->show();
 ```
 - #  Dialog1
 
-###  _**Dialog1.h**_
+###  _**Dialog1h**_
 
 ```c++
 class Dialog1: public QWidget

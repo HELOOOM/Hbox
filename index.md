@@ -4,9 +4,8 @@ You can use the [editor on GitHub](https://github.com/HELOOOM/Hbox/edit/gh-pages
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## eliaaaaaas
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Definition
+A  **widgets** i an element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.
 
 ```markdown
 Syntax highlighted code block

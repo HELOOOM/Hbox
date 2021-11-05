@@ -1,4 +1,6 @@
-# Programming Widget Layout **By: Lakhmiri / Sakassa / Benzemroun**
+# Programming Widget Layout 
+
+## `By: Lakhmiri / Sakassa / Benzemroun`
 
 # Definition
 A **Widgets** is an element of a graphical user interface (GUI) that displays information or provides a specific way for a user to interact with the operating system or an application.

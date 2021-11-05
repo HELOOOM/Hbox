@@ -158,7 +158,7 @@ rightLayout->addSpacerItem(new QSpacerItem(10,10, QSizePolicy::Expanding));
 ```
 - # Dialog2_Result
 
-![Image](image_2021-11-05_002823.png)
+![Image](image_2021-11-05_204639.png)
 
 - #  Dialog3
 

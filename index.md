@@ -325,6 +325,7 @@ int main(int argc, char *argv[])
 }
 ```
 ###  _**Dia.h**_
+```c++
 class dia : public QWidget
 {
     Q_OBJECT
@@ -357,7 +358,9 @@ private:
 #endif // CALCULATOR_H
 
 ```
+
 ### _**Dia.cpp**_
+
 ```c++
 dia::dia(QWidget *parent)
     : QWidget(parent)
@@ -441,6 +444,7 @@ void dia::keyPressEvent(QKeyEvent *e)
     if( e->key() == Qt::Key_Escape)
         qApp->exit(0);
 }
+
 ```
 - # Dia_Result
 

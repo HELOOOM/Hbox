@@ -16,6 +16,8 @@ A **Widgets** is an element of a graphical user interface (GUI) that displays in
  -  [**Dialog3**](#dialog3)
 
 -  [**Dialog3 Result**](#dialog3_result)
+
+ -  [**Calculator**](#calculator)
   
 ## Now we start with creating the **`main`** class 
 ```c++
@@ -305,4 +307,6 @@ void Dialog3::placeWidgets(){
 - # Dialog3_Result
 
 ![Image](dia3.png)
+
+- # Calculator
 

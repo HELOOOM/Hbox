@@ -444,4 +444,4 @@ void dia::keyPressEvent(QKeyEvent *e)
 ```
 - # Dia_Result
 
-![Image](dia3.png)
+![Image](diamain.png)

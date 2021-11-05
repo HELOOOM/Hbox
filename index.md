@@ -325,8 +325,6 @@ int main(int argc, char *argv[])
 }
 ```
 ###  _**Dia.h**_
-
-```c++
 class dia : public QWidget
 {
     Q_OBJECT
@@ -343,7 +341,6 @@ private:
     QGridLayout *buttonsLayout;
     QVBoxLayout *layout;
     QPushButton *b0;
-
     QPushButton *b1;
     QPushButton *b2;
     QPushButton *b3;
@@ -355,9 +352,10 @@ private:
     QPushButton *b9;
     QPushButton *enter;
     QPushButton *AC;
-    QLCDNumber *disp;
+    QLCDNumber *affiche;
 };
 #endif // CALCULATOR_H
+
 ```
 ### _**Dia.cpp**_
 ```c++
@@ -417,13 +415,13 @@ void dia::createWidgets()
    AC = new QPushButton("AC",this);
    AC->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
    AC->resize(sizeHint().width(), sizeHint().height());
-    disp = new QLCDNumber(this);
-    disp->setDigitCount(5);
+    affiche = new QLCDNumber(this);
+    affiche->setDigitCount(5);
 }
 void dia::placeWidget()
 {
     setLayout(layout);
-    layout->addWidget(disp);
+    layout->addWidget(affiche);
     layout->addLayout(buttonsLayout);
     buttonsLayout->addWidget(b1, 0, 1);
     buttonsLayout->addWidget(b2, 0, 2);
@@ -438,13 +436,11 @@ void dia::placeWidget()
     buttonsLayout->addWidget(enter, 3, 1, 1,1);
     buttonsLayout->addWidget(AC, 3, 3, 1,1);
 }
-
 void dia::keyPressEvent(QKeyEvent *e)
 {
     if( e->key() == Qt::Key_Escape)
         qApp->exit(0);
 }
-
 ```
 - # Dia_Result
 

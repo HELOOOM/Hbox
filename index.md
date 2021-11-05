@@ -19,7 +19,7 @@ A **Widgets** is an element of a graphical user interface (GUI) that displays in
 
  -  [**Calculator**](#calculator)
 
--  [**Dia_Result**](#dia_result)
+-  [**Calculator_Result**](#calculator_result)
   
 ## Now we start with creating the **`main`** class 
 ```c++
@@ -446,6 +446,6 @@ void dia::keyPressEvent(QKeyEvent *e)
 }
 
 ```
-- # Dia_Result
+- # Calculator_Result
 
 ![Image](diamain.png)
